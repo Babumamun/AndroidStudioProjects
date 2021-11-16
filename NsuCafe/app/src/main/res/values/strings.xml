@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">nsu</string>
+    <string name="name">CNUBUCKS</string>
+    <string name="hintsname"> Email Or Phone</string>
+    <string name="hintspassword"> Password</string>
+    <string name="singup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="haveAccount">Already Have An Account ?</string>
+    <string name="Register">Register</string>
+    <string name="forget">Forget Password</string>
+    <string name="modify">ModifyHere</string>
+    <string name="Add">AddYourNewProduct</string>
+    <string name="Delete">DeleteProduct</string>
+    <string name="save">Save</string>
+    <string name="Name">ProductName</string>
+    <string name="Des">ProductDescription</string>
+    <string name="price">price</string>
+    <string name="pick">Chose an image</string>
+    <string name="string">No Matter where you are,We will serve you best food</string>
+
+</resources>

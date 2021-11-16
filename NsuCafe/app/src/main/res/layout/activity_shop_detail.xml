@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+        <include
+            layout="@layout/title_bar"
+            android:id="@+id/tb"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:background="@drawable/banner_2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:paddingTop="10dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Menu"
+                android:fontFamily="@font/semibold"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/light_gray" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <view.ShopListView
+                            android:id="@+id/list_view_food"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="0dp" />
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+    <include
+        layout="@layout/shop_head_new"></include>
+    <include
+        layout="@layout/card"></include>
+
+    <include
+        layout="@layout/cart_list"></include>
+
+
+</FrameLayout>

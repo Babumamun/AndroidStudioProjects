@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add_product"
+        android:title="@string/Add"
+        android:icon="@drawable/ic_baseline_plus_one_24"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item android:id="@+id/delete"
+        android:title="@string/Delete"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/modify"
+        android:title="@string/modify"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" />
+</menu>

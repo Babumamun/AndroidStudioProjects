@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "747688548485",
+    "firebase_url": "https://nsucafe.firebaseio.com",
+    "project_id": "nsucafe",
+    "storage_bucket": "nsucafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747688548485:android:5c801707703ccc645bf1ec",
+        "android_client_info": {
+          "package_name": "com.example.nsucafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747688548485-9q1ie3ckskfangoc22reus3l54u8hh51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPJZX5a5jNDMy8vHkvc7hs0E3DTSjK4zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747688548485-9q1ie3ckskfangoc22reus3l54u8hh51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

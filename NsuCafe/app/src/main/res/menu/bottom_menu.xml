@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:title="Home"-->
+<!--        android:id="@+id/home"-->
+<!--        android:enabled="true"-->
+<!--        app:showAsAction="always"-->
+<!--        android:orderInCategory="2"-->
+<!--        android:icon="@drawable/gray_home"/>-->
+    <item
+        android:title="Account"
+        android:id="@+id/account"
+        android:enabled="true"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_account"/>
+
+<!--    <item-->
+<!--        android:title="Favourate"-->
+<!--        android:id="@+id/heart"-->
+<!--        android:enabled="true"-->
+<!--        app:showAsAction="always"-->
+<!--        android:icon="@drawable/ic_heart"/>-->
+
+
+</menu>
